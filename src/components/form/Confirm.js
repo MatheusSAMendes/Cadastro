@@ -1,6 +1,5 @@
 import React from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import AppBar from 'material-ui/AppBar'
 import RaisedButton from 'material-ui/RaisedButton'
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
@@ -42,7 +41,6 @@ export default function Confirm({ nextStep, prevStep, user, appTitle }) {
   return (
     <MuiThemeProvider>
       <React.Fragment>
-        <AppBar title={appTitle} />
         <Card className={classes.root}>
           <CardContent>
             <Typography className={classes.title}

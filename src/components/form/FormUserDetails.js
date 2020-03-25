@@ -1,6 +1,5 @@
 import React from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import AppBar from 'material-ui/AppBar'
 import TextField from 'material-ui/TextField'
 import RaisedButton from 'material-ui/RaisedButton'
 
@@ -20,7 +19,6 @@ export default function FormUserDetails({ user, nextStep, handleChange, appTitle
   return (
     <MuiThemeProvider>
       <React.Fragment>
-        <AppBar title={appTitle} />
         <TextField
           hintText="Enter your first name"
           floatingLabelText="First Name"

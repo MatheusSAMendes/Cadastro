@@ -1,6 +1,5 @@
 import React from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import AppBar from 'material-ui/AppBar'
 import RaisedButton from 'material-ui/RaisedButton'
 import Typography from '@material-ui/core/Typography';
 
@@ -31,7 +30,6 @@ export default function Confirm({ nextStep, prevStep, user, appTitle }) {
   return (
     <MuiThemeProvider>
       <React.Fragment>
-        <AppBar title={appTitle} />
         <Typography className={classes.title}
           color="textPrimary"
           gutterBottom>
