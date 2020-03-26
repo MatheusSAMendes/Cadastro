@@ -10,20 +10,10 @@ export default function UserForm() {
   const [appTitle] = useState('Cadastro')
   const [user, setUser] = useState({
     step: 0,
-    completeName: 'Matheus',
-    cpf: '',
-    dataCadastro: '' ,
-    dataNascimento: '',
-    idade: '',
-    fone: '',
-    rg: '',
-    cnh: '',
-    naturalidade: '',
-    endereco: '',
-    temFoto: false,
-    compResidencia: 'proprio' || 'terceiro',
+    firstName: 'Matheus',
+    lastName: 'Araujo',
     email: 'abc@gmail.com',
-    atendente: '',
+    occupation: 'dev',
     city: 'Rio',
     bio: 'Abc.'
   });

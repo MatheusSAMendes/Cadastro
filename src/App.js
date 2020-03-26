@@ -3,7 +3,7 @@ import './App.css';
 import TopBar from './components/TopBar'
 import UserForm from './components/form/UserForm';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <TopBar />
@@ -12,4 +12,3 @@ function App() {
   );
 }
 
-export default App;
